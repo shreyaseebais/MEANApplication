@@ -1,0 +1,13 @@
+<div class="ekart-featured-product-item">
+
+    <!-- ng-content me wo aayega jo is <component-tag> ke andar mention kiya hai 
+        For example yaha <h3>New Arrival....</h3> replace karega ng-content ko -->
+
+    <!-- In select you may refer by class name of the line you have used for ng-content -->
+    <ng-content select=".title"></ng-content>
+    <p class="description">
+        Lorem ipsum blah blah blah
+        Lorem ipsum yay yay yay 
+    </p>
+    <ng-content select=".call-to-action"></ng-content>
+</div>
